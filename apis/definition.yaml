@@ -27,13 +27,13 @@ spec:
             type: object
             description: |
               The specification for how this PostgreSQLInstance should be
-              deployed.
+              deployed. [Julius Test]
             properties:
               parameters:
                 type: object
                 description: |
                   The parameters indicating how this PostgreSQLInstance should
-                  be configured.
+                  be configured. [Julius Test]
                 properties:
                   region:
                     type: string
@@ -42,7 +42,7 @@ spec:
                       - west
                     description: |
                       The geographic region in which this PostgreSQLInstance
-                      should be deployed.
+                      should be deployed. [Julius Test]
                   size:
                     type: string
                     enum:
